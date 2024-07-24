@@ -38,16 +38,25 @@ Usage
 Web Application
 ---------------
 Register: Navigate to /register/ to create a new user.
+
 Task List: View the list of tasks at the root URL (/).
+
 Task Detail: View details of a specific task at /tasks/<task_id>/.
+
 Create Task: Create a new task at /tasks/new/.
+
 Edit Task: Edit an existing task at /tasks/<task_id>/edit/.
+
 Delete Task: Delete a task at /tasks/<task_id>/delete/.
+
 Logout: Log out at /accounts/logout/.
 
 API Endpoints
 ---------------
 List Tasks: GET /api/tasks/
+
 Retrieve Task: GET /api/tasks/<task_id>/
+
 List Users: GET /api/users/
+
 Retrieve User: GET /api/users/<user_id>/
